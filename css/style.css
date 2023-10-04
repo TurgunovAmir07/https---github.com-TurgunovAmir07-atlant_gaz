@@ -138,7 +138,6 @@ section {
 
 h3 {
   color: #f1f1f1;
-  font-family: "Russo One";
   font-size: calc(1.3vw + 19px);
   font-weight: 400;
 }
@@ -183,7 +182,6 @@ body span {
 .emergency_question_secondpage span{
   display: block;
   color: #f1f1f1;
-  font-family: "Russo One";
   font-size: calc(0.4vw + 14.4px);
   font-weight: 400;
 }
@@ -257,7 +255,6 @@ section .emergency_question {
 .emergency_question span {
   display: block;
   color: #f1f1f1;
-  font-family: "Russo One";
   font-size: calc(0.4vw + 14.4px);
   font-weight: 400;
 }
@@ -295,7 +292,6 @@ section .emergency_question {
 }
 h1 {
   color: #2194ff;
-  font-family: "Russo One";
   font-size: calc(3.1vw + 24.4px);
   font-style: normal;
   font-weight: 400;
@@ -304,7 +300,6 @@ h1 {
 }
 .delivery_info {
   color: #f1f1f1;
-  font-family: "Russo One";
   font-size: calc(0.7vw + 15.5px);
   font-weight: 300;
   position: relative;
@@ -340,7 +335,6 @@ section.grey {
 section.grey h2 {
   color: #2194ff;
   text-align: center;
-  font-family: "Russo One";
   font-size: calc(1.3vw + 19px);
   font-weight: 400;
   padding-top: 46px;
@@ -358,13 +352,11 @@ section.grey h2 {
 }
 .fuelInfo_container h3 {
   color: #f1f1f1;
-  font-family: "Russo One";
   font-size: calc(1.3vw + 19px);
   font-weight: 400;
 }
 .fuelInfo_container span {
   color: #2194ff;
-  font-family: "Russo One";
   font-size: calc(0.7vw + 15.5px);
   font-weight: 400;
 }
@@ -411,7 +403,6 @@ section.grey h2 {
 }
 .fuelInfo_container.center h4 {
   color: #f1f1f1;
-  font-family: "Russo One";
   font-size: calc(0.4vw + 14.4px);
   font-weight: 400;
   max-width: 300px;
@@ -425,7 +416,6 @@ section.grey h2 {
 }
 .fuelInfo_block {
   color: rgba(241, 241, 241, 0.7);
-  font-family: "Russo One";
   font-weight: 400;
   display: block;
 }
@@ -462,7 +452,6 @@ section.padding_left {
 }
 .flexGallery_block span {
   color: #2194ff;
-  font-family: "Russo One";
   font-size: calc(0.7vw + 15.5px);
   font-weight: 400;
   display: block;
