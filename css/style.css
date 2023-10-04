@@ -36,12 +36,6 @@ section {
   width: auto;
   margin: 10px;
 }
-@media (min-width: 576px) {
-.modal-dialog {
-    max-width: 460px;
-    margin: 30px auto;
-}
-}
 .modal-content {
   position: relative;
   display: -webkit-box;
@@ -60,12 +54,6 @@ section {
   border-radius: 33px;
   background: #FFF;
   box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.25);
-}
-@media (min-width: 768px) {
-.modal-content {
-    -webkit-box-shadow: 0 5px 15px rgba(0,0,0,.5);
-    box-shadow: 0 5px 15px rgba(0,0,0,.5);
-}
 }
 .modal-header {
   display: -webkit-box;
@@ -130,12 +118,6 @@ section {
   text-transform: uppercase;
   text-align: start;
 }
-
-
-
-
-
-
 h3 {
   color: #f1f1f1;
   font-size: calc(1.3vw + 19px);
@@ -222,9 +204,6 @@ body span {
 .thx_container img{
   width: 200px;
 }
-
-
-
 .Logo_container {
   position: relative;
 }
@@ -648,11 +627,6 @@ h3 {
 .question:last-child{
   margin-bottom: 40px;
 }
-
-
-
-
-
 .question_flexContainer{
   display: flex;
   flex-wrap: wrap;
@@ -774,12 +748,6 @@ textarea::placeholder{
   font-size: calc(0.2vw + 13.2px);
   font-weight: 600;
 }
-
-
-
-
-
-
 .fuel_galleryContainer{
   overflow: hidden;
   display: flex;
@@ -798,15 +766,6 @@ textarea::placeholder{
   color: #2194ff;
   text-align: center;
 }
-
-
-
-
-
-
-
-
-
 .blue.location{
   color: #2194ff;
   margin-top: 50px;
@@ -883,9 +842,18 @@ textarea::placeholder{
   display: flex;
   justify-content: space-between;
 }
-
-
-
+@media (min-width: 576px) {
+  .modal-dialog {
+      max-width: 460px;
+      margin: 30px auto;
+  }
+  }
+@media (min-width: 768px) {
+  .modal-content {
+      -webkit-box-shadow: 0 5px 15px rgba(0,0,0,.5);
+      box-shadow: 0 5px 15px rgba(0,0,0,.5);
+  }
+  }
 @media (max-width: 930px) {
   section.hello {
     background-image: url();
