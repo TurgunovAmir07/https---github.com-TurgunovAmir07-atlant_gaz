@@ -133,7 +133,7 @@ p {
 section.hello {
   background-image: url(../img/1stscreen\ 1.svg);
   background-repeat: no-repeat;
-  background-position-x: calc(22vw + 317px);
+  background-position-x: calc(22vw + 407px);
   background-position-y: bottom;
   background-size: calc(22vw + 617px);
 }
@@ -303,6 +303,9 @@ h1 {
   font-weight: 100;
 }
 
+
+
+
 section.grey {
   background-color: #2d3238;
   background-image: url(../img/proportions\ 1.png);
@@ -318,16 +321,18 @@ section.grey h2 {
   font-weight: 400;
   padding-top: 46px;
 }
-.fuelInfo_Grid_container {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-areas: "A B B C";
+.fuelInfo_mainFlex_container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0 50px;
 }
 .fuelInfo_container {
   width: 250px;
   margin-top: 76px;
   margin-bottom: 0;
   padding-bottom: 0;
+  text-align: center;
 }
 .fuelInfo_container h3 {
   color: #f1f1f1;
@@ -363,19 +368,6 @@ section.grey h2 {
   font-family: "Open Sans";
   font-size: calc(0.2vw + 15.2px);
   font-weight: 700;
-}
-.fuelInfo_container.first {
-  grid-area: A;
-}
-.center {
-  margin-left: 150px;
-  margin-right: 70px;
-}
-.fuelInfo_container.center {
-  grid-area: B;
-}
-.fuelInfo_container.second {
-  grid-area: C;
 }
 .fuelInfo_container.center {
   margin-top: 49px;
@@ -419,6 +411,7 @@ section.padding_left {
 }
 .flexGallery_container {
   display: flex;
+  justify-content: center;
   flex-wrap: wrap;
   text-align: center;
 }
@@ -754,12 +747,16 @@ textarea::placeholder{
   justify-content: space-around;
   flex-wrap: wrap;
 }
-.fuel_galleryBlock{
-  width: 110px; 
-  height: 35px;
-  border-radius: 20px;
+.f_block{
+  width: 130px;
+  height: 55px;
   background: #F1F1F1;
-  padding: 5px 10px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.fuel_galleryBlock{
   margin-bottom: 30px;
 }
 .blue{
